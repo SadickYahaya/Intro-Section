@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- JSX
 - CSS custom properties
 - Flexbox
 - CSS Grid
