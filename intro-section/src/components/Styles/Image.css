@@ -1,3 +1,27 @@
 .image img{
     width: 27vw;
 }
+
+.imageMobile {
+    display: none;
+}
+
+@media (max-width: 859px) {
+   .image {
+        display: none;
+   }
+
+   .imageMobile {
+        display: flex;
+   }
+
+   .imageMobile img{
+       width: 100vw;
+   }
+}
+
+@media (max-width: 400px) {
+    .imageMobile img{
+        min-width: -webkit-fill-available;
+    }
+}

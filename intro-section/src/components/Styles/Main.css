@@ -5,3 +5,12 @@
     justify-items: center;
     margin-top: 4em;
 }
+
+@media (max-width: 859px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;  
+        grid-gap: 3em;
+        align-items: stretch;
+    }
+}

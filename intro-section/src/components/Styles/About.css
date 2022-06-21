@@ -1,7 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    gap: 6.5em;
+    gap: 5em;
 }
 
 .details {
@@ -16,9 +16,45 @@
 }
 
 .details button {
-    width: 90px;
-    padding: 0.5em;
+    width: 150px;
+    padding: 0.5em 0.5em;
+    height: 3em;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
-    border-radius: 0.5em;
+    border-radius: 0.9em;
+    cursor: pointer;
+}
+
+.details button:hover {
+    background-color: hsl(0, 0%, 98%);
+    color:  hsl(0, 0%, 8%);
+}
+
+.message {
+    color: red;
+}
+
+@media (max-width: 859px) {
+    .about {
+        width: -webkit-fill-available;
+    }
+
+    .details {
+        align-items: center;
+        gap: 2em;
+    }
+
+    .details h1 {
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .details p {
+        text-align: justify;
+        
+    }
+
+   .details h1 br {
+        display: none;
+    }
 }

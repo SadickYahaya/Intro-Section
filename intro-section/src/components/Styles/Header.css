@@ -3,3 +3,9 @@
     align-items: center;
     margin: 0.8em
 }
+
+@media (max-width: 859px) {
+    .header {
+        width: -webkit-fill-available;
+    }
+}
