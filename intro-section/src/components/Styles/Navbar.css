@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+
+.navbar ul li select {
+    border: none !important;
+}
+
+.navButtons button{
+    margin-right: 1em;
+    background-color: inherit;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid black;
+}
+
+.navButtons button:nth-child(1) {
+    border: none !important;
+}
